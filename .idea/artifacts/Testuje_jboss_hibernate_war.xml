@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Testuje_jboss_hibernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Testuje_jboss_hibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Testuje_jboss_hibernate-1.war">
+      <element id="artifact" artifact-name="Testuje_jboss_hibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
