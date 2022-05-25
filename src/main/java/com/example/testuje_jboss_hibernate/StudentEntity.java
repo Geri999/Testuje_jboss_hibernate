@@ -4,6 +4,7 @@ package com.example.testuje_jboss_hibernate;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 
@@ -11,6 +12,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
+@ToString
 @Table(name = "STUDENTS")
 public class StudentEntity {
     @Id

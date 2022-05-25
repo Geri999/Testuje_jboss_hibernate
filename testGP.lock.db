@@ -1,0 +1,6 @@
+#FileLock
+#Wed May 25 18:00:46 UTC 2022
+server=192.168.56.1\:59849
+hostName=GP-EIZO
+method=file
+id=180fc60bcc397ff2405fe0222c309b6636d13d6366c

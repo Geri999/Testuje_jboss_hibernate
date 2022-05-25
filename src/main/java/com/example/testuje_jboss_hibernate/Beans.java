@@ -1,6 +1,8 @@
 package com.example.testuje_jboss_hibernate;
 
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.h2.tools.Server;
 
 import javax.enterprise.inject.Produces;
 import javax.inject.Singleton;

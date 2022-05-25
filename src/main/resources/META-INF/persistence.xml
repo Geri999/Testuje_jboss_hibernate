@@ -5,7 +5,7 @@
              version="2.2">
     <persistence-unit name="defaultH2" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+        <jta-data-source>java:jboss/datasources/ExampleDS1</jta-data-source>
         <class>com.example.testuje_jboss_hibernate.StudentEntity</class>
         <properties>
             <!--            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -17,6 +17,9 @@
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
             <property name="hibernate.flushMode" value="FLUSH_AUTO"/>
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
+            <property name="javax.persistence.h2." value="false"/>
+
+
 
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="false"/>
