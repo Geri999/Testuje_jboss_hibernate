@@ -4,16 +4,14 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
     <persistence-unit name="defaultH2" transaction-type="RESOURCE_LOCAL">
-<!--        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
-<!--        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>-->
-
-
-<!--                <class>com.example.testuje_jboss_hibernate.StudentEntity</class>-->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+        <class>com.example.testuje_jboss_hibernate.StudentEntity</class>
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:./gerardDB;AUTO_SERVER=TRUE"/>
-            <property name="javax.persistence.jdbc.user" value="sa"/>
-            <property name="javax.persistence.jdbc.password" value="sa"/>
+            <!--            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+                        <property name="javax.persistence.jdbc.url" value="jdbc:h2:./gerardDB;AUTO_SERVER=TRUE"/>
+                        <property name="javax.persistence.jdbc.user" value="sa"/>
+                        <property name="javax.persistence.jdbc.password" value="sa"/>-->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>

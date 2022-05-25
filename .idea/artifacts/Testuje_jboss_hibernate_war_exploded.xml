@@ -35,7 +35,7 @@
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.11" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.11" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.32" />
-          <element id="library" level="project" name="Maven: com.h2database:h2:2.1.212" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.200" />
         </element>
       </element>
       <element id="directory" name="META-INF">
